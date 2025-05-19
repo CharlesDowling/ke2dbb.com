@@ -1,0 +1,28 @@
+#header {
+    margin:auto;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+#links {
+    margin:auto;
+    text-align: center;
+}
+
+#link_table {
+    margin:auto;
+    text-align: center;
+}
+
+#top_title {
+    margin:auto;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    margin:10px;
+    text-align: center;
+    white-space-collapse: preserve;
+}
