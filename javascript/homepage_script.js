@@ -45,8 +45,8 @@ elementGen("div", "homepage_figure", "homepage_figure_div");
 elementGen("figcaption","homepage_figure_div","homepage_image_caption");
 elementGen("a", "homepage_image_caption", "homepage_source_image","","The Colossus Computer by Farai Gandiya","https://commons.wikimedia.org/wiki/File:Colosus_Computer.jpg")
 elementGen("a","homepage_image_caption","cc0","","CC0 1.0","https://creativecommons.org/publicdomain/zero/1.0/");
-elementGen("img","homepage_image_caption","","cc","","","https://mirrors.creativecommons.org/presskit/icons/cc.svg","CC")
-elementGen("img","homepage_image_caption","","cc","","","https://mirrors.creativecommons.org/presskit/icons/zero.svg","0")
+elementGen("img","homepage_image_caption","","cc","","","/images/cc.svg","CC")
+elementGen("img","homepage_image_caption","","cc","","","/images/zero.svg","0")
 
 //Text Summary
 elementGen("div","body_div","summary");
