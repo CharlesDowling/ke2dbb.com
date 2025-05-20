@@ -1,4 +1,4 @@
-import {elementGen} from "/script.js"
+import {elementGen} from "/javascript/script.js"
 
 //Main footer body
 elementGen("div", "body", "footer");

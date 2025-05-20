@@ -31,11 +31,11 @@
 }
 
 #homepage_image_caption {
-    width: 50%;
+    display: flex;
+    width: 30%;
     margin: auto;
     margin-top: 0vw;
-    margin-bottom: 3vw;
-    
+    margin-bottom: 3vw;    
     justify-content: center;
     text-align: center;
 }
