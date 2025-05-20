@@ -1,14 +1,18 @@
+#body_div{
+    position: relative;
+}
+
 #summary{
-    width: 75%;
-    margin: auto;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
     background-color: #2A3F74;
+    border-radius: 10px 10px 10px 10px;
     color: #F6F3EC; 
     font-size: larger;
-    border-radius: 10px 10px 10px 10px;
     justify-content: center;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    margin: auto;
     text-align: center;
+    width: 75%;
 }
 
 #homepage_image {
@@ -19,15 +23,14 @@
     margin-right: auto;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 50%;
     height: auto;
 }
 
 #homepage_figure{
-    position: relative;
-    margin: auto;
-    margin-top: 15vw;
     height: auto;
+    margin-top: 0vw;
+    margin: auto;
 }
 
 #homepage_image_caption {
@@ -40,3 +43,11 @@
     text-align: center;
 }
 
+#paragraph_summary{
+    white-space: pre-wrap;
+}
+
+.cc{
+    width: 10%;
+    height: auto;
+}

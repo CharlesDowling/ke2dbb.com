@@ -1,5 +1,7 @@
 #footer {
     background-color: #2A3F74;
+    position: relative;
+    bottom: 0;
 }
 
 .foot_link{
