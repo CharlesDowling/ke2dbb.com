@@ -1,9 +1,12 @@
 import {elementGen} from "/script.js"
 
-const footer = document.createElement("div");
-footer.id = "footer";
-document.body.appendChild(footer)
+//Main footer body
+elementGen("div", "body", "footer");
 
-const para = document.createElement("p");
-para.textContent = "Test Texts";
-document.getElementById("footer").appendChild(para);
+//Link generation
+elementGen("div","footer","open_source");
+elementGen("a","open_source","license","foot_link","Website Software License","/LICENSE");
+elementGen("a","open_source","source_code_link","foot_link","Source code for this website on Github.com","https://github.com/CharlesDowling/ke2dbb.com");
+
+
+elementGen("p","footer","bottom","p_footer","Copyright 2025 - Charles Edward Dowling Junior","LICENSE");
