@@ -1,28 +1,70 @@
+body {
+    background-color: #F6F3EC;
+    color: #5577D1;
+}
+
 #header {
-    margin:auto;
-    background-color: black;
-    color: whitesmoke;
-
-}
-
-#links {
-    margin:auto;
+    background-color: #2A3F74;
+    color: #E06C43;
+    position:fixed;
+    top: 0;
+    left: 0vw;
+    right: 0vw;
+    justify-content: center;
     text-align: center;
 }
 
-#link_table {
-    margin:auto;
-    text-align: center;
+.top_link {
+    margin: 5vw;
 }
 
-#top_title {
-    margin:auto;
-    text-align: center;
+#footer {
+    background-color: #2A3F74;
+}
+
+#link_row 
+{
+    position: relative;
+    left: 25vw;
+    right: 25vw;
 }
 
 a {
-    color: whitesmoke;
-    margin:10px;
+    color: #E06C43;
+    margin: auto;
     text-align: center;
-    white-space-collapse: preserve;
+    text-decoration: none;
+}
+
+#summary{
+    width: 50%;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+#homepage_image {
+    
+    position: relative;
+    max-width: 50vw;
+    height: auto;
+    left: 25vw;
+    right: 25vw;
+}
+
+#homepage_figure{
+    position: relative;
+    margin: auto;
+    margin-top: 10vw;
+    height: auto;
+}
+
+#homepage_image_caption {
+    position: relative;
+    max-width: 50vw;
+    left: 25vw;
+    right: 25vw;
 }
