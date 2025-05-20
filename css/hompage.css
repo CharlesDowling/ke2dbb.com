@@ -1,20 +1,26 @@
 #summary{
-    width: 50%;
+    width: 75%;
     margin: auto;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    
+    background-color: #2A3F74;
+    color: #F6F3EC; 
+    font-size: larger;
+    border-radius: 10px 10px 10px 10px;
     justify-content: center;
     text-align: center;
 }
 
 #homepage_image {
-    
-    position: relative;
-    max-width: 50vw;
+    display: flex;
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
     height: auto;
-    left: 25vw;
-    right: 25vw;
 }
 
 #homepage_figure{
@@ -25,8 +31,12 @@
 }
 
 #homepage_image_caption {
-    position: relative;
-    max-width: 50vw;
-    left: 25vw;
-    right: 25vw;
+    width: 50%;
+    margin: auto;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+    
+    justify-content: center;
+    text-align: center;
 }
+
