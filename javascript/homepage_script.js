@@ -36,6 +36,8 @@
 
 import { elementGen } from "/javascript/script.js";
 
+//function elementGen (ElementType, Parent, Id, Class, TextContent, href, src, alt)
+
 elementGen("div","body","body_div");
 elementGen("figure","body_div","homepage_figure");
 elementGen("img","homepage_figure","homepage_image","","","","/images/Colosus_Computer.jpg","Image of Colossus Computer");
