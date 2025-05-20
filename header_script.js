@@ -4,15 +4,9 @@
             </a>
             <table id="link_table">
                 <tr id="links_row">
-                    <th>
-                        <a class="links" href="/programming/index.html">Programming</a>
-                    </th>
-                    <th>
-                        <a class="links" href="/libertas/index.html">Libertas</a>
-                    </th>
-                    <th>
-                        <a class="links" href="/software/index.html">Software</a>
-                    </th>
+                    <a class="links" href="/programming/index.html">Programming</a>
+                    <a class="links" href="/libertas/index.html">Libertas</a>
+                    <a class="links" href="/software/index.html">Software</a>   
                 </tr>
             </table>
         </div>*/
@@ -28,19 +22,15 @@ elementGen("a","header","homepage_link","","","/index.html");
 elementGen("h1","homepage_link", "top_title","","KE2DBB");
 
 //Table to organize links
-elementGen("table","header","link_table");
-elementGen("tr","link_table","link_row");
+elementGen("div","header","link_div");
 
 //CREATE PROGRAMMING LINKS
-elementGen("td", "link_row", "programming_cell");
-elementGen("a","link_row", "programming_link", "top_link", "Programming", "/programming/index.html");
+elementGen("a","link_div", "programming_link", "top_link", "Programming", "/programming/index.html");
 
 
 //CREATE LIBERTAS LINKS
-elementGen("td", "link_row", "libertas_cell");
-elementGen("a", "link_row", "libertas_link", "top_link", "Libertas", "/libertas/index.html");
+elementGen("a", "link_div", "libertas_link", "top_link", "Libertas", "/libertas/index.html");
 
 //CREATE SOFTWARE LINKS
-elementGen("td", "link_row", "software_cell");
-elementGen("a", "link_row", "software_link", "top_link", "Software", "/software/index.html");
+elementGen("a", "link_div", "software_link", "top_link", "Software", "/software/index.html");
 

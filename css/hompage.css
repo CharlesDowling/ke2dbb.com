@@ -1,0 +1,32 @@
+#summary{
+    width: 50%;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+#homepage_image {
+    
+    position: relative;
+    max-width: 50vw;
+    height: auto;
+    left: 25vw;
+    right: 25vw;
+}
+
+#homepage_figure{
+    position: relative;
+    margin: auto;
+    margin-top: 15vw;
+    height: auto;
+}
+
+#homepage_image_caption {
+    position: relative;
+    max-width: 50vw;
+    left: 25vw;
+    right: 25vw;
+}

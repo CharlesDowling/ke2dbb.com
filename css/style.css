@@ -1,0 +1,13 @@
+body {
+    position: absolute;
+    background-color: #F6F3EC;
+    color: #5577D1;
+}
+
+a {
+    color: #E06C43;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
