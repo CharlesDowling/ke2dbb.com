@@ -4,7 +4,7 @@
     background-color: #2A3F74;
     border-radius: 10px 10px 10px 10px;
     color: #F6F3EC; 
-    font-size: larger;
+    font-size: normal;
     justify-content: center;
     margin: auto;
     position: relative;
@@ -17,8 +17,7 @@ a {
     justify-content: center;
     margin: auto;
     margin-bottom: 0vh;    
-    margin-top: 1vh;
-    
+    margin-top: 1vh;    
     text-align: left;
     text-decoration: underline;
     width: 30%;
