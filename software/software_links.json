@@ -1,19 +1,51 @@
 {
-    "_comment":"FORMAT: ID, HREF, TEXTCONTENT",
-    "links":
-    {   "Visual Basic" : 
+    "_comment": "FORMAT: ID, HREF, TEXTCONTENT",
+    "links": {
+        "Operating Systems - Linux": [
             {
-            "id":"visual_basic_programming_manual",
-            "href":"https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/",
-            "textContent":"Programming Guide - Visual Basic | Microsoft Learn'"
-        }
-    ,
-        "Javascript" : 
+                "id": "debian-gnulinux",
+                "href": "https://www.debian.org/",
+                "textContent": "Debian (Linux)"
+            },
             {
-            "id":"w3schools_javascript_tutorial",
-            "href":"https://www.w3schools.com/Js/",
-            "textContent":"W3Schools Javascript Tutorial"
-        }
-    
+                "id": "fedora-gnulinux",
+                "href": "https://fedoraproject.org/",
+                "textContent": "Fedora (Linux)"
+            },
+            {
+                "id": "arch-gnulinux",
+                "href": "https://archlinux.org/",
+                "textContent": "Arch (Linux)"
+            },
+            {
+                "id": "linux-writing",
+                "href": "/software/linux/index.html",
+                "textContent": "More information regarding linux (Click Here)"
+            }
+        ],
+        "Text Editors": [
+            {
+                "id": "notepadplusplus",
+                "href": "https://notepad-plus-plus.org/downloads/",
+                "textContent": "Notepad++"
+            },
+            {
+                "id": "libreoffice",
+                "href": "https://www.libreoffice.org/",
+                "textContent": "LibreOffice - Microsoft Office Alternative"
+            }
+        ],
+        "Integrated Development Environments": [
+            {
+                "id": "codeblocks",
+                "href": "https://www.codeblocks.org/",
+                "textContent": "CodeBlocks - C/C++ and Fortran"
+            },
+            {
+                "id": "vscode",
+                "href": "https://code.visualstudio.com/",
+                "textContent": "Visual Studio Code - All Languages"
+            }
+        ]
     }
 }

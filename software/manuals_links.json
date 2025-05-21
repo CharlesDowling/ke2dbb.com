@@ -1,6 +1,19 @@
 {
-    "_comment":"FORMAT: ID, HREF, TEXTCONTENT",
-    "links":[
-        
-    ]
+    "_comment": "FORMAT: ID, HREF, TEXTCONTENT",
+    "links": {
+        "Programming eBooks - Visual Basic": [
+            {
+                "id": "vbnetbook",
+                "href": "https://goalkicker.com/VisualBasic_NETBook/",
+                "textContent": "Visual Basic .NET - Notes for Professionals"
+            }
+        ],
+        "Manuals/Docs - Visual Basic": [
+            {
+                "id": "vbnetdocs",
+                "href": "https://learn.microsoft.com/en-us/dotnet/visual-basic/",
+                "textContent": "Visual Basic documentation"
+            }
+        ]
+    }
 }

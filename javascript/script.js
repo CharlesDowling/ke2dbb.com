@@ -25,7 +25,6 @@ export async function jsonElementLinkGen(type, parent, source){
     //Type : Type of HTML element to generate
     //Parent : Parent object
     //Source : URL link for the json file
-    //Header : Header for links section
     fetch(source)
     .then((response) => response.json())
     .then((json) => {

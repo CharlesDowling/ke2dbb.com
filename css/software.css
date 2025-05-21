@@ -1,3 +1,24 @@
+#body_div{
+    position: relative;
+    display: flex;
+    background-color: #2A3F74;
+    border-radius: 10px 10px 10px 10px;
+    color: #F6F3EC; 
+    font-size: larger;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
 a {
     display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;    
+    margin-top: 0vw;
+    margin: auto;
+    text-align: left;
+    text-decoration: underline;
+    width: 30%;
 }
