@@ -1,0 +1,10 @@
+{
+    "_comment":"FORMAT: ID, HREF, TEXTCONTENT",
+    "links":[
+        {
+        "id":"visual_basic_programming_manual",
+        "href":"https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/",
+        "textContent":"Programming Guide - Visual Basic | Microsoft Learn'"
+    }
+    ]
+}

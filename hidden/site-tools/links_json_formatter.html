@@ -1,0 +1,44 @@
+<!--Tool to automatically generate html anchor json on my website-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSON Link Gen</title>
+        
+    </head>
+    
+    <body id="body">
+        <div>
+        <form action="json"></form>   
+        <p>Requested ID</p>
+        <input id="identifier" size="100px" type="text">
+        <p>Page Link</p>
+        <input id="page_link" size="100px" type="text">
+        <p>Link Text</p>
+        <input id="link_text" size="100px" type="text">
+        <button id="submit" onclick="jsonFormatter()">GENERATE</button>
+        </div>
+        <div>
+        <textarea id="output" rows="10" cols="50"></textarea>
+        </div>
+    </body>
+    
+    <script>
+            function jsonFormatter(){
+                let id = document.getElementById("identifier").value
+                let link = document.getElementById("page_link").value
+                let link_text = document.getElementById("link_text").value
+
+                let output = "{\r\n"+
+                "\"id\":"   + id   + "\"\r\n"+
+                "\"href\":" + link + "\"\r\n" +
+                "\"textContent\":" + link_text + "\"\r\n" +
+                "\r\n}"
+
+                document.getElementById("output").textContent = output
+            }
+        </script>
+
+</html>

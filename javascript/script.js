@@ -4,8 +4,10 @@ export function elementGen(elementType, parent, ident, class_name="",  textConte
     new_element.id = ident;
     new_element.className = class_name;
     new_element.textContent = textContent;
-    new_element.href = href;
-    new_element.src = src;
-    new_element.alt = alt;
+    new_element.setAttribute("href", href);
+    if (elementType == "img"){
+        new_element.setAttribute("src",src);
+        new_element.setAttribute("alt", alt);
+    }
     document.getElementById(parent).appendChild(new_element);
 }
