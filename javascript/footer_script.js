@@ -10,3 +10,5 @@ elementGen("a","open_source","source_code_link","foot_link","Source code for thi
 
 
 elementGen("p","footer","bottom","p_footer","Copyright 2025 - Charles Edward Dowling Junior","LICENSE");
+
+document.getElementById("body").hidden = false;

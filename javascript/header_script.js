@@ -13,6 +13,8 @@
 
 import {elementGen} from "/javascript/script.js"
 
+document.getElementById("body").hidden = true;
+
 const header = document.createElement("div");
 header.id = "header";
 document.body.appendChild(header)
