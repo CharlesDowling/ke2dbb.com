@@ -25,17 +25,30 @@ export async function jsonElementLinkGen(type, parent, source){
     //Type : Type of HTML element to generate
     //Parent : Parent object
     //Source : URL link for the json file
+    //Header : Header for links section
     fetch(source)
     .then((response) => response.json())
     .then((json) => {
-        for (let x in Object.keys(json.links)){
-            console.log(json.links[x].id);
-            console.log(json.links[x].href);
-            console.log(json.links[x].textContent);
-            let id = json.links[x].id;
-            let href = json.links[x].href;
-            let textContent = json.links[x].textContent;
-            elementGen(type, parent,id,"",textContent,href);
+        let json_links = json;
+
+        let header_link = Object.keys(json_links.links);
+
+        header_link.forEach(key => {
+
+            const language = Object.keys(json_links.links[key]);
+            
+            elementGen("h3",parent,"","",key);
+
+            language.forEach(language => {               
+                
+                let id = json_links.links[key][language].id;
+                let href = json_links.links[key][language].href;
+                let textContent = json_links.links[key][language].textContent;
+                elementGen(type, parent,id,"",textContent,href);
+
+            });
         }
+        );
+
     });
 }

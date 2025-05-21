@@ -1,14 +1,24 @@
 {
     "_comment":"FORMAT: ID, HREF, TEXTCONTENT",
-    "links":[
-        {
-        "id":"visual_basic_programming_manual",
-        "href":"https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/",
-        "textContent":"Programming Guide - Visual Basic | Microsoft Learn'"
-    },{
-        "id":"w3schools_javascript_tutorial",
-        "href":"https://www.w3schools.com/Js/",
-        "textContent":"W3Schools Javascript Tutorial"
+    "links": {
+        "Visual Basic" : [
+            {
+                "id":"visual_basic_programming_manual",
+                "href":"https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/",
+                "textContent":"Programming Guide - Visual Basic | Microsoft Learn'"
+            }
+        ],  
+        "Javascript" : [ 
+            {
+                "id":"w3schools_javascript_tutorial",
+                "href":"https://www.w3schools.com/Js/",
+                "textContent":"W3Schools Javascript Tutorial"
+            },
+            {
+                "id":"beginners_series_to_javascript",
+                "href":"https://learn.microsoft.com/en-us/shows/beginners-series-to-javascript/",
+                "textContent":"Beginner's Series to Javascript"
+            }
+        ]
     }
-    ]
 }
