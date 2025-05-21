@@ -12,9 +12,19 @@ elementGen("div","body","top_body_tutorial");
 elementGen("div","body","top_body_software");
 
 
-elementGen("h1","body_div","wip","","WORK IN PROGRESS");
+elementGen("h1","top_body_div","wip","","WORK IN PROGRESS");
 
 //Bottom single box
 //Personal Software
 elementGen("div","body","bottom_body_div");
 elementGen("div","body","bottom_body_self");
+
+let host = window.location.hostname;
+
+let json_links
+
+fetch('/software/tutorial_links.json')
+    .then((response) => response.json())
+    .then((json) => lson_links = json);
+
+console.log(json);
