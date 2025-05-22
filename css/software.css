@@ -1,12 +1,16 @@
 #body_div{
-    display: flex;
+    align-items: center;
     background-color: #2A3F74;
     border-radius: 10px 10px 10px 10px;
     color: #F6F3EC; 
+    display: flex;
     font-size: normal;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     text-align: center;
     width: 100%;
@@ -21,18 +25,24 @@ p {
     align-items: center;
     justify-content: center;
     white-space: pre-wrap;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
 }
 
 a {
     display: flex;
     justify-content: center;
-    margin: auto;
     margin-bottom: 1vh;    
     margin-top: 1vh;    
+    margin: auto;
     text-align: left;
     text-decoration: underline;
-    width: 30%;
+    width: 80%;
+}
+
+img {
+    width: 20vw;
+    height: auto
 }
