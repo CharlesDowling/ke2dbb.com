@@ -1,22 +1,36 @@
 #body_div{
-    position: relative;
     display: flex;
     background-color: #2A3F74;
     border-radius: 10px 10px 10px 10px;
     color: #F6F3EC; 
     font-size: normal;
     justify-content: center;
+    align-items: center;
     margin: auto;
     position: relative;
     text-align: center;
     width: 100%;
+    
+}
+
+p {
+    background-color: #2A3F74;
+    border-radius: 10px 10px 10px 10px;
+    color: #F6F3EC; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-wrap;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 0vh;    
+    margin-bottom: 1vh;    
     margin-top: 1vh;    
     text-align: left;
     text-decoration: underline;

@@ -1,4 +1,5 @@
 #header {
+    display: flex;
     background-color: #2A3F74;
     color: #E06C43;
     justify-content: center;
