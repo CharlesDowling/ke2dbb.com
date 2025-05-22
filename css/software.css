@@ -7,10 +7,8 @@
     font-size: normal;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
+    margin-top: 2vh;
     position: relative;
     text-align: center;
     width: 100%;
@@ -34,9 +32,9 @@ p {
 a {
     display: flex;
     justify-content: center;
-    margin-bottom: 1vh;    
-    margin-top: 1vh;    
+ 
     margin: auto;
+    align-items: center;
     text-align: left;
     text-decoration: underline;
     width: 80%;

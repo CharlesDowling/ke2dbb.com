@@ -8,14 +8,16 @@
     right: 0vw;
     text-align: center;
     top: 0;
+    
 }
 
 .top_link {
+    display: flex;
     margin: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: auto;
     justify-content: center;
-    width:10%; 
+    align-items: center;
+    width:20%; 
 }
 
 #top_title {
@@ -32,10 +34,7 @@
     display: flex;
     height: auto;
     justify-content: center;
-    margin-bottom: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1vh;
+    margin: auto;
     width: 100%;
 }
 
