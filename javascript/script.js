@@ -36,14 +36,14 @@ export async function jsonElementLinkGen(type, parent, source){
 
             const language = Object.keys(json_links.links[key]);
             
-            elementGen("h3",parent,"","",key);
+            let header = elementGen("h3",parent,"","",key);
 
             language.forEach(language => {               
                 
                 let id = json_links.links[key][language].id;
                 let href = json_links.links[key][language].href;
                 let textContent = json_links.links[key][language].textContent;
-                elementGen(type, parent,id,"",textContent,href);
+                elementGen(type, ,id,"",textContent,href);
 
             });
         }

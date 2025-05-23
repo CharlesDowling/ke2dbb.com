@@ -32,12 +32,13 @@ p {
 a {
     display: flex;
     justify-content: center;
- 
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: auto;
     align-items: center;
     text-align: left;
     text-decoration: underline;
-    width: 80%;
+    width: 100%;
 }
 
 img {
