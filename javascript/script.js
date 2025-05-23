@@ -43,7 +43,7 @@ export async function jsonElementLinkGen(type, parent, source){
                 let id = json_links.links[key][language].id;
                 let href = json_links.links[key][language].href;
                 let textContent = json_links.links[key][language].textContent;
-                elementGen(type, ,id,"",textContent,href);
+                elementGen(type, parent, id,"",textContent,href);
 
             });
         }
