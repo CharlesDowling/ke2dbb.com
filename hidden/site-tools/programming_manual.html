@@ -7,7 +7,60 @@
     </head>
     
     <body id="body">   
-       
+       <p>
+#####
+        Function elementGen()
+#####
+
+Overview
+The elementGen function is a utility designed to dynamically create and append HTML elements to the DOM. It is intended for educational or prototyping purposes but is not recommended for production use due to potential security and validation issues.
+
+Purpose
+This function allows developers to programmatically generate HTML elements (e.g., <div>, <a>, <img>, etc.) with specified attributes, content, and styling. It is a simple wrapper around basic DOM manipulation techniques.
+
+Function Signature
+
+export function elementGen(
+  elementType, 
+  parent, 
+  ident, 
+  class_name = "", 
+  textContent = "", 
+  href = "", 
+  src = "", 
+  alt = ""
+) {
+  // Function implementation
+}
+Parameters
+Parameter	Description	Default Value
+elementType	The type of HTML element to create (e.g., "div", "a", "img").	Required
+parent	The ID of the DOM element where the new element will be appended.	Required
+ident	The ID attribute for the new element.	""
+class_name	The CSS class name for the new element.	""
+textContent	The text content to display within the new element.	""
+href	The href attribute value (for links).	""
+src	The src attribute value (for images).	""
+alt	The alt attribute value (for images).	""
+How It Works
+Element Creation
+The function uses document.createElement(elementType) to create a new HTML element. This is valid for most HTML elements (e.g., div, a, img, etc.).
+
+Attribute Assignment
+The function sets the following properties on the new element:
+
+id (via new_element.id = ident)
+className (via new_element.className = class_name)
+textContent (via new_element.textContent = textContent)
+href (via new_element.setAttribute("href", href))
+src and alt (only for <img> elements)
+DOM Insertion
+The new element is appended to the DOM using:
+
+
+document.getElementById(parent).appendChild(new_element);
+This assumes the parent ID exists in the DOM. If not, an error will occur.
+       </p>
     </body>
     
     <link rel="stylesheet" href="./style.css"/> 
