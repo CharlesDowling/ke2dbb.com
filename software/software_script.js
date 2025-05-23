@@ -10,11 +10,11 @@ import { jsonElementLinkGen } from "/javascript/script.js";
 elementGen("div","body","body_div");
 elementGen("div","body_div","top_body_div");
 
-elementGen("div","body_div","top_body_manuals");
+elementGen("div","body_div","top_body_manuals", "link_box");
 elementGen("h1","top_body_manuals","manuals_header","","Manuals & Books");
-elementGen("div","body_div","top_body_tutorial");
+elementGen("div","body_div","top_body_tutorial","link_box");
 elementGen("h1","top_body_tutorial","tutorial_header","","Tutorials & Guides");
-elementGen("div","body_div","top_body_software");
+elementGen("div","body_div","top_body_software", "link_box");
 elementGen("h1","top_body_software","software_header","","Software");
 
 //Bottom single box
